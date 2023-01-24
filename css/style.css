@@ -1,0 +1,152 @@
+ /*Class: WEB210.2102, Assignment Lesson 3 - GitHub, Name: Tihomira Yordanova, Date:1/19/2023, */
+ 
+ body {                             /*Styling the Body */
+    margin: 0 auto;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    font-size: 17px;
+    line-height: 2;
+    background-color: #F5DBEA;
+    color: #7E0774;
+}
+img {                                /*Styling the Images */
+  width: 300px;
+  float: left;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  box-shadow: 5px 5px  #7E0774;
+  margin-right: 20px;
+  margin-bottom: 20px;   
+
+  } 
+  .profile-wrap{                       /*Styling the Content for h1 and h2 */
+    margin: 0 auto;
+    padding: 70px 0;
+    width: 800px;                        /*width of the text in the profile must be pixels!*/
+    max-width: 750px;
+  }
+   header {                               /*Styling the Header */
+    text-align: center; 
+    background-image: url('../images/annie-spratt-unsplash.jpg'); /* Backgound Image  */
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:auto;
+    background-position: center; 
+    color: #7E0774;
+  } 
+  h1 {                                               /*Styling the h1 */
+    font-family:Verdana, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    text-shadow: 3px 3px 3px white;
+    line-height: 1;
+    margin: 0;
+    color: #7E0774;
+  }
+  h2 {                                                 /*Styling the h2 */
+    font-family:Verdana,sans-serif;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px white;
+    color:#ed1898;
+  }
+
+  h3 {                                                /*Styling the h3 */
+    font-family:Verdana,sans-serif;
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px white;
+    color:#7E0774;
+    margin-bottom: 0;
+  }
+
+  .portfolio {                                     /*Styling the Portfolio(Projects) */
+    background: #F5DBEA;
+  }
+  .portfolio a { 
+    color: #077e11;                        /*Styling the Portfolio(Projects) text for:tihomirawebsite.com */
+  }
+  .portfolio .button {                               /*Styling the Portfolio(Projects) button */
+    display: inline-block;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50px;                             /* rounded edges of the button*/
+    color: #F7FFF7;                               /* white text*/
+    background:#7E0774;                           /* purple color for the background box*/
+  }
+  .portfolio .button:hover {
+    background: rgba(243, 4, 128, 0.8);
+    color: green;
+  }
+  .portfolio-item {
+    overflow: hidden;
+  }
+  .portfolio-item h3 {
+    margin-top: 0;
+  }
+                               
+.education {                                      /*Styling the Education */
+  background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+.education p {
+ text-align: left;
+}
+                                                        
+  footer{                                                             /* Styling the Footer */ 
+    background-image: url('../images/annie-spratt-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size:auto;
+    background-position: center; 
+    margin: 0;
+    width:100%;
+    padding:  0;
+    color:#7E0774;
+    clear:both;
+  }
+  .network-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  .network-list a {
+    padding: 20px;
+    display: inline-block;
+    color: #077e11;
+    font-weight: bold;
+    text-decoration: none;
+  }
+                                    
+@media screen and (min-width:750px){                  /*Styling Media Quaries Responsive */
+  header, footer {
+    text-align: center;
+  }
+  .portfolio-item img {
+    float: inline-start;
+    margin-right: 30px;
+  }
+
+  .network-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 40px;
+    line-height:0.8;
+    margin-bottom: 18px;
+  }
+  h2 {
+    font-size: 20px;
+    line-height: 1.5;
+    line-height:0.8;
+    margin-bottom: 18px;
+  }
+  .network-list a {
+    padding: 7px;
+  }
+}

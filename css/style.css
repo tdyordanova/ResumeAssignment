@@ -1,11 +1,16 @@
- /*Class: WEB210.2102, Assignment Lesson 3 - GitHub, Name: Tihomira Yordanova, Date:1/24/2023, */
- 
+ /*Class: WEB210.2102, Assignment Lesson 3 - GitHub Continue Parts 3 and 5, Name: Tihomira Yordanova, Date:1/31/2023, */
+ html{                                 /* htm tselijat Dobaveno 30 jan Mon*/
+  box-sizing:border-box;
+ }
+ *,*:before, *:after{
+  box-sizing: inherit;
+ }
  body {                             /*Styling the Body */
     margin: 0 auto;
     padding: 0;
-    font-family: Verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;          
     font-size: 17px;
-    line-height: 2;
+    line-height: 1.8;
     background-color: #F5DBEA;
     color: #7E0774;
 }
@@ -35,29 +40,45 @@ img {                                /*Styling the Images */
     color: #7E0774;
   } 
   h1 {                                               /*Styling the h1 */
-    font-family:Verdana, sans-serif;
+    font-family: 'Ephesis', cursive;                
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
     font-weight: 900;
     text-shadow: 3px 3px 3px white;
-    line-height: 1;
+    line-height: 0.8;
     margin: 0;
     color: #7E0774;
+    letter-spacing: 4px;
+    margin-bottom: 60px;
   }
   h2 {                                                 /*Styling the h2 */
-    font-family:Verdana,sans-serif;
+    font-family: 'Ephesis', cursive;                      
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     text-shadow: 3px 3px 3px white;
     color:#ed1898;
+    letter-spacing: 4px;
+    margin-top: -50px;
+    margin-bottom: -15px;
   }
-
+  .motto p{
+    /* font-family:'Ephesis', cursive;  */
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    text-shadow: 3px 3px 3px white;
+    line-height: 1;
+    color: #7E0774;
+    letter-spacing: 2px;  
+  }
   h3 {                                                /*Styling the h3 */
-    font-family:Verdana,sans-serif;
+    font-family: 'Open Sans', sans-serif; 
     text-align: center;
     font-size: 20px;
     text-shadow: 3px 3px 3px white;
     color:#7E0774;
+    letter-spacing: 2px;
     margin-bottom: 0;
   }
 
@@ -118,6 +139,8 @@ img {                                /*Styling the Images */
     color: #077e11;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;   
+    font-size:20px;                            
   }
                                     
 @media screen and (min-width:750px){                  /*Styling Media Quaries Responsive */
